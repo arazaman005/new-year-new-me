@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner{
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.banner-content{
+    top: 35%;
+    left: 60%;
+    position: absolute;
+}
+
+.banner-title{
+    font-weight: 600;
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 15px;
+    text-align: right;
+    margin-right: 20px;
+
+}
+
+.banner-description{
+    font-size: 16px;
+    font-weight: 300px;
+    color: #000000;
+    text-align: right;
+    margin-right: 20px;
+
+}
+
+.btn-primary1{
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    background-color: white;
+    padding: 20px 36px 20px 30px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+
+/* section-style */
+section {
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    gap: ;
+
+}
+
+.section-title {
+    color: #151414;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    margin-top: 220px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.section-image {
+    margin-top: 30px;
+    width: 569px;
+    height: 723.3px;
+}
+
+.section-description {
+    color: #444343;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.section-p {
+    color: #444343;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+}
+
+.content-2{
+
+    margin-left: 6%;
+    margin-right: 20%;
+
+}
+
+
+/* my-plan sections */
+
+.plans {
+    margin-top: 130px;
+
+}
+
+.plan-title h1{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+    line-height: 47px;
+     
+
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.skill {
+   
+    background-color: #ffffff ;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* Container Section */
+
+.container { 
+    width: 1100px;
+    
+    margin-top: 150px;
+    margin-left: 150px;
+   
+}
+.contain-section{
+
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),  url(../images/watch.png);
+    border-radius: 5px;
+    padding: 65px 620px 65px 70px;
+}
+
+.contain-title{
+    color: white;
+    font-size: 28px;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+.btn-primary2{
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    background-color: white;
+    padding: 20px 36px 20px 30px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+/* contact-styles */
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 150px;
+    background: #151414;
+    padding: 130px 200px;
+}
+
+.contact .section-title {
+    text-align: left;
+    color: #F8F8F8;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 53px;
+}
+
+.contact p {
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 20px;
+    
+}
+
+.subscribe {
+    margin-bottom: 24px;
+    border: 2px solid white;
+    /* width: 100%; */
+    padding: 18px 30px;
+    /* background-color: #151414; */
+    /* color: #FFFFFF; */
+    /* border: 30px;
+    border-color: black */
+}
+
+.contact a {
+    text-decoration: none;
+    
+
+}
+
+.btn {
+
+    font-weight: 600;
+    font-size: 20px;
+    color:#f15b22;
+    padding: 20px 36px 20px 30px;
+    border-radius: 5px;
+    border: none;
+    
+}
